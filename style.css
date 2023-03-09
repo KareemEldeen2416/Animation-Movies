@@ -1,0 +1,192 @@
+header{
+    
+    height: 500px;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+nav{
+    background-color: rgba(255, 85, 0, 0.258);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+button{
+    background-color: #697d99;
+    color: white;
+    font-family: Gloock;
+    font-weight: bold;
+    font-size: 18pt;
+    height: 76px;
+    margin: 0;
+    width: 400px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    outline: none;
+    border-width: 0;
+}
+
+button:hover{
+
+    background-color: white;
+    color: #006ED0;
+    border-bottom: #004988 solid 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+
+}
+
+.pixar{
+
+    background-color: #006ED0;
+
+
+}
+
+.sony{
+    background-color: #697d99;
+}
+
+.sony:hover{
+
+    color: #697d99;
+    border-bottom: #697d99 solid 5px;
+
+
+}
+
+.dreamWorks{
+
+    background-color: #D97941;
+}
+
+.dreamWorks:hover{
+    color: #D97941;
+    border-bottom: #D97941 solid 5px;
+}
+
+
+
+
+
+.headerBack{
+
+    height: 440px;
+    width: 100%;
+    opacity: 0.5;
+   
+    border-radius: 20px;
+}
+
+.movieCard{
+    width: 400px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+}
+
+.cardBack{
+
+    width: 400px;
+    height: 420px;
+    margin: 0;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px
+}
+
+.moviesContent{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: transparent;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+#pixarTitle{
+    width: 80%;
+    height: fit-content;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    padding-left:20px;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom right ,#006ED0 ,#518EFF ,#5DBCD2 ,#B48CFC );
+    color: white;
+    font-family: Gloock;
+    font-size: 24pt;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: #004988 solid 10px;
+}
+
+#pixarTitle:hover {
+    background: linear-gradient(to top left ,#006ED0 ,#B48CFC );
+}
+
+#sonyTitle{
+    width: 80%;
+    height: fit-content;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    padding-left:20px;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom right ,#000000 ,#7c8285 ,#697d99 ,#96b8db );
+    color: white;
+    font-family: Gloock;
+    font-size: 24pt;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: #000000 solid 10px;
+}
+
+#sonyTitle:hover{
+    background: linear-gradient(to bottom right  ,#697d99 ,#96b8db );
+
+}
+
+
+
+#dreamWorksTitle{
+    width: 80%;
+    height: fit-content;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    padding-left:20px;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom right ,#FDB94D ,#D9A577 ,#D97941 );
+    color: white;
+    font-family: Lobster;
+    font-size: 24pt;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: #734f22 solid 10px;
+}
+
+#dreamWorksTitle:hover{
+
+    background: linear-gradient(to bottom right ,#FDB94D ,#D97941 );
+
+}
+
+
+#webTitle{
+    position: absolute;
+    top: 220px;
+    left: 38%;
+    font-family: Secular One;
+    font-size: 48pt;
+    color: white;
+}
